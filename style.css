@@ -12,6 +12,7 @@ h1 {
     height: 3em;
     margin-left: 10em;
     margin-right: 10em;
+    border-radius: 12px;
   
 }
 
@@ -27,23 +28,48 @@ h1 {
     margin-left: 10em;
     margin-right: 10em;
     }
-
-
-
 }
 
 h3 {
     text-align: center;
+    font-size: 1.5em;
 
+}
+
+#audio {
+    display: block;
+    margin: auto;
+}
+
+.buttonRow {
+    display: flex;
+    justify-content: center;
+}
+
+.rhythm {
+    cursor: pointer;
+    font-size: large;
+    height: 3em;
+    border-radius: 12px;
+    background-color: orange;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
 .click {
     display: flex;
     justify-content: center;
-    height: 2em;
+ 
 }
 
 #result {
     display: flex;
     justify-content: space-around;
+
 }
+
+.robot {
+    display: block;
+    margin: auto;
+    width: 20em;
+    border-radius: 50%;
+    }
