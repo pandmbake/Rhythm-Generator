@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Random Rhythm Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Londrina+Solid&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Welcome to the Random Rhythm Generator!</h1>
+    <h3>Click on the button to generate a rhythm, then practice clapping it!</h3>
+    <h3>If you want to clap along to a beat, turn your sound up and click the buttons below to play or pause the music.</h3>
+
+    <div class="audioPlay">
+        <button onclick = "playAudio()" type="button">Start Music</button></div>
+    <div class="audioStop">
+        <button onclick = "stopAudio()" type="button">Pause Music</button></div>  
+    
+    <div class="click">
+    <button onclick = "getRandomImage()" type="button">Click Me!</button></div>
+    <br><br>
+    <span id="result" align="center"> </span>   
+
+
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>

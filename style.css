@@ -1,0 +1,49 @@
+html {
+    font-family: 'Londrina Solid', cursive;
+    background-color:skyblue;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(252, 252, 252);
+    background-color: black;
+    height: 3em;
+    margin-left: 10em;
+    margin-right: 10em;
+  
+}
+
+@media screen and (max-width: 1085px) {
+    h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: medium;
+    color: rgb(252, 252, 252);
+    background-color: black;
+    height: 3em;
+    margin-left: 10em;
+    margin-right: 10em;
+    }
+
+
+
+}
+
+h3 {
+    text-align: center;
+
+}
+
+.click {
+    display: flex;
+    justify-content: center;
+    height: 2em;
+}
+
+#result {
+    display: flex;
+    justify-content: space-around;
+}
