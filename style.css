@@ -19,9 +19,26 @@ h1 {
   
 } 
 
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 1620px) {
     h1 {
-        font-size: 1.5em
+    font-size: 3em;
+    margin-left: 200px;
+    margin-right: 200px;
+
+    }
+
+    .robot1 {
+        
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1505px) {
+    h1 {
+        font-size: 3em;
+        margin-left: 200px;
+        margin-right: 200px;
+
     }
 
     .robot1 {
@@ -29,17 +46,37 @@ h1 {
     }
     }
 
-
-
-@media screen and (max-width: 1085px) {
+@media screen and (max-width: 1090px) {
     h1 {
-    font-size: 1.5em;
+        font-size: 2em;
+        
     }
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 844px) {
     h1 {
-        font-size: 1.5em;
+        font-size: 2em;
+        margin-left: 100px;
+        margin-right: 100px;
+        
+    }
+}
+
+@media screen and (max-width: 645px) {
+    h1 {
+        font-size: 2em;
+        margin-left: 50px;
+        margin-right: 50px;
+        
+    }
+}
+
+@media screen and (max-width: 550px) {
+    h1 {
+        font-size: 2em;
+        margin-left: 25px;
+        margin-right: 25px;
+        
     }
 }
 
@@ -65,6 +102,7 @@ h3 {
 .buttonRow {
     display: flex;
     justify-content: center;
+    gap: 2em;
 }
 
 .rhythm {
@@ -77,15 +115,14 @@ h3 {
    
 }
 
-.click {
+.clickEasy {
     display: flex;
     justify-content: center;
  
 }
 
 #result {
-    display: flex;
-    justify-content: space-around;
-
-}
+    display: block;
+    margin: auto;
+    }
 
